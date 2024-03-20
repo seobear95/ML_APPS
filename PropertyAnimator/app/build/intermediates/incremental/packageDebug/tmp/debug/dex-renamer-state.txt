@@ -1,0 +1,4 @@
+#Wed Mar 20 15:42:17 KST 2024
+base.0=C\:\\Users\\it303_30\\AndroidStudioProjects\\PropertyAnimator\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

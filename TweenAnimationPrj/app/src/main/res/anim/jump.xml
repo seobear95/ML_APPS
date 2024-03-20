@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+
+    <!-- 위로 올라가는 애니메이션 -->
+    <translate
+        android:fromXDelta="0%"
+        android:toXDelta="100%"
+        android:fromYDelta="0%"
+        android:toYDelta="-500%"
+        android:duration="1000"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator" />
+
+    <!-- 포물선 꼭지점 도달 전 느리게 움직이는 애니메이션 -->
+    <!-- 앞 수행 이후 1000 ms 지연 후 다시 내려오면 됨 -->
+    <translate
+            android:startOffset = "1000"
+            android:fromXDelta="100%"
+            android:toXDelta="200%"
+            android:fromYDelta="-500%"
+            android:toYDelta="0%"
+            android:duration="1000"
+            android:interpolator="@android:anim/bounce_interpolator" />
+
+
+
+
+</set>

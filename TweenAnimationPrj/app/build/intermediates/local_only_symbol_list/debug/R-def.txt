@@ -1,0 +1,19 @@
+R_DEF: Internal format may change without notice
+local
+anim alpha
+anim jump
+anim move
+anim rotate
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id star
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.TweenAnimationPrj
+style Theme.TweenAnimationPrj
+xml backup_rules
+xml data_extraction_rules
